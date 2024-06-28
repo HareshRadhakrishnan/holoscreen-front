@@ -10,7 +10,7 @@ yarn-error.log
 coverage
 
 !src/**
-
+src/app/api
 ./tsconfig.tsbuildinfo
 
 
