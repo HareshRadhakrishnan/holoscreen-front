@@ -12,6 +12,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        hero: "url('/shoe-store.png')",
+      },
       transitionProperty: {
         width: "width margin",
         height: "height",
@@ -60,7 +63,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
-          "Inter",
+          "Krona One",
           "-apple-system",
           "BlinkMacSystemFont",
           "Segoe UI",
