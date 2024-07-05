@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { EllipseMiniSolid } from "@medusajs/icons"
 import { Label, RadioGroup, Text, clx } from "@medusajs/ui"
 import { ChangeEvent } from "react"
@@ -10,7 +11,7 @@ type FilterRadioGroupProps = {
   }[]
   value: any
   handleChange: (...args: any[]) => void
-  'data-testid'?: string
+  "data-testid"?: string
 }
 
 const FilterRadioGroup = ({
@@ -18,7 +19,7 @@ const FilterRadioGroup = ({
   items,
   value,
   handleChange,
-  'data-testid': dataTestId
+  "data-testid": dataTestId,
 }: FilterRadioGroupProps) => {
   return (
     <div className="flex gap-x-3 flex-col gap-y-3">

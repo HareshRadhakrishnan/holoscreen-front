@@ -29,12 +29,7 @@ const Hero = () => {
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               {/* Base */}
 
-              <a
-                className="inline-block rounded border border-grey-90 bg-grey-90 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-grey-90 focus:outline-none focus:ring active:text-grey-50"
-                href="#"
-              >
-                Explore Ideas
-              </a>
+              <Button variant="secondary">Explore Ideas</Button>
 
               {/* Border */}
 
